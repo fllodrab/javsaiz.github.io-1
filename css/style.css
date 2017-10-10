@@ -1,0 +1,107 @@
+body
+{background-repeat: no-repeat;
+  background-size: cover;
+
+}
+h1
+{
+color: black;
+}
+.cabecera
+{
+width: :auto;
+height:120px;
+background: ;
+
+}
+.javier
+{
+  position:relative;
+  width: 150px;
+  height: 150px;
+  bottom: :200px;
+  border: 1px solid black;
+  top:10px;
+  left: 10px;
+}
+.titulocab
+{ position: relative;
+  display: flex;
+  justify-content:center;
+  bottom: 100px;
+  color: black;
+
+}
+.container
+{
+position: relative;
+top:45px;
+display: flex;
+flex-direction: row;
+background:
+}
+.caja1
+{
+  position: relative;
+width: 50%;
+height: 70%;
+margin: 2px;
+padding: 10px;
+border: 5px ridge orange
+
+}
+.caja2
+{
+position: relative;
+width: 50%;
+margin: 2px;
+padding: 10px;
+border: 5px ridge orange
+}
+.enlaces
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top:50px
+}
+.github
+{
+  width: 35px;
+  height: 35px;
+  border: 2px double black;
+}
+.linkedin
+{
+  width: 35px;
+  height: 35px;
+  border: 2px double black;
+}
+.formulario
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top:50px;
+  background: ;
+  bottom: 15px;
+  padding:15px;
+  border: 2px solid orange;
+}
+.textform
+{
+  display: flex;
+  justify-content: center;
+}
+.enviar
+{
+  display: flex;
+  justify-content: center;
+}
+.pie
+{
+  position: relative;
+  top:45px;
+  display: flex;
+  justify-content:flex-end;
+}
