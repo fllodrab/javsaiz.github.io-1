@@ -6,12 +6,41 @@ body
 h1
 {
 color: black;
+text-align: center;
 }
+p
+{
+font: oblique bold 110% sans-serif;
+}
+ul li
+{
+  font:oblique bold 100% sans-serif;
+}
+
 .cabecera
 {
 width: :auto;
 height:120px;
-background: ;
+background:orange ;
+opacity: 0.9
+
+
+}
+.navigator ul li
+{
+  display: flex;
+  align-items: center;
+  position:relative;
+  top:50px;
+  display: inline-block;
+  background: white;
+  margin:0px;
+  width: 80px;
+  text-align: center;
+  color: black;
+  border:5px ridge orange;
+  font:menu;
+
 
 }
 .javier
@@ -20,9 +49,11 @@ background: ;
   width: 150px;
   height: 150px;
   bottom: :200px;
-  border: 1px solid black;
+  border: 2px solid orange
   top:10px;
   left: 10px;
+  top:10px;
+  border:2px solid orange;
 }
 .titulocab
 { position: relative;
@@ -38,8 +69,13 @@ position: relative;
 top:45px;
 display: flex;
 flex-direction: row;
-background:
+background:;
+opacity: 0.8;
+-moz-opacity:0.9;
+filter:alpha(opacity=90);
+background-color: white;
 }
+
 .caja1
 {
   position: relative;
@@ -69,13 +105,13 @@ border: 5px ridge orange
 {
   width: 35px;
   height: 35px;
-  border: 2px double black;
+  border: 5px double black;
 }
 .linkedin
 {
   width: 35px;
   height: 35px;
-  border: 2px double black;
+  border: 5px double black;
 }
 .formulario
 {
@@ -86,7 +122,12 @@ border: 5px ridge orange
   background: ;
   bottom: 15px;
   padding:15px;
-  border: 2px solid orange;
+  border: 5px ridge orange;
+  width: 50%;
+  height: 70px;
+  left:24%;
+  background-color:white;
+  opacity:0.8
 }
 .textform
 {
