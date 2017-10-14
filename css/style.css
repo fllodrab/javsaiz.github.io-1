@@ -1,32 +1,30 @@
 body
 {background-repeat: no-repeat;
-  background-size: cover;
-
+background-size: cover;
 }
 h1
 {
 color: black;
 text-align: center;
+font-size: 25px;
 }
 p
 {
-font: oblique bold 120% sans-serif;
+line-height:25px;
+text-align: justify;
+font: 150% sans-serif;
 }
 ul li
 {
-  font:oblique bold 110% sans-serif;
+  font:oblique bold 120% sans-serif;
+  line-height:20px;
 }
-
 .cabecera
 {
 position: relative;
-
 width: :auto;
-height:120px;
+height:130px;
 background:orange ;
-
-
-
 }
 .navigator ul li
 {
@@ -42,8 +40,6 @@ background:orange ;
   color: black;
   border:5px ridge orange;
   font:menu;
-
-
 }
 .javier
 {
@@ -63,38 +59,37 @@ background:orange ;
   justify-content:center;
   bottom: 100px;
   color: black;
-
+  font: oblique 150% sans-serif;
 }
 .container
 {
 position: relative;
-top:45px;
+top:50px;
 display: flex;
 flex-direction: row;
-background:;
-opacity: 0.8;
--moz-opacity:0.9;
-filter:alpha(opacity=90);
-background-color: white;
-}
 
+}
 .caja1
 {
-  position: relative;
-width: 50%;
-height: 70%;
+position: relative;
+width: 25%;
+height: auto;
 margin: 2px;
-padding: 10px;
-border: 5px ridge orange
-
+padding: 5px;
+border: 5px ridge orange;
+background-color: white;
+opacity: 0.8;
 }
 .caja2
 {
 position: relative;
-width: 50%;
+width: 80%;
+height: 70%;
 margin: 2px;
-padding: 10px;
-border: 5px ridge orange
+padding: 5px;
+border: 5px ridge orange;
+background-color: white;
+opacity: 0.8;
 }
 .enlaces
 {
@@ -147,4 +142,16 @@ border: 5px ridge orange
   top:45px;
   display: flex;
   justify-content:center;
+}
+@media screen and (min-width:1000px)
+{
+
+}
+@media screen and (min-width:768px)
+{
+
+}
+@media screen and (min-width:480px)
+{
+  
 }
